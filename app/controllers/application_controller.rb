@@ -1,5 +1,5 @@
 class ApplicationController < ActionController::Base
-    # SessionsHelperに記載されているメソッドを、自分のインスタンスメソッドとして取り込むことができる。
+    # SessionsHelperに記載されているメソッドを、自分のインスタンスメソッドとして取り込むことができる
     # これをMix-inという。
     include SessionsHelper
 
